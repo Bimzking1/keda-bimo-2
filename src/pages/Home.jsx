@@ -19,10 +19,10 @@ const Home = () => {
                         <div className='w-full text-center lg:pt-16 rounded-lg text-gray-800 text-6xl font-bold pt-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]'>
                             Keda Enterprise
                         </div>
-                        <div className='w-full text-center rounded-lg text-gray-800 text-xl pt-4'>
+                        <div className='w-full text-center rounded-lg text-gray-800 text-xl pt-4 mt-8 md:mt-0'>
                             Expand your business with Our ERP Services
                         </div>
-                        <div className='w-full flex justify-center items-center mt-4'>
+                        <div className='w-full flex justify-center items-center mt-8 md:mt-4'>
                             <a href="#pricing" className='w-1/2 bg-[#01B7FE] py-2 text-center rounded-lg text-gray-100 text-xl font-bold hover:bg-white hover:text-gray-800 border-2 hover:border-[#01B7FE] duration-500'>
                                 Get Started
                             </a>
@@ -30,7 +30,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='flex flex-col justify-center md:justify-start w-full xl:w-[1280px]'>
-                    <div className='mb-8 px-8 w-full italic text-center lg:w-[500px] lg:ml-8 rounded-lg text-gray-800 text-xl pt-4'>
+                    <div className='mt-2 md:mt-0 mb-8 px-8 w-full italic text-center lg:w-[500px] lg:ml-8 rounded-lg text-gray-800 text-xl pt-4'>
                         We provides various business models
                     </div>
                     <img
