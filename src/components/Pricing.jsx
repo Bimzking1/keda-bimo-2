@@ -82,16 +82,16 @@ const Pricing = () => {
                         <div className='text-md my-1 font-bold text-green-600'>
                             Record profits
                         </div>
-                        <div className='text-md my-1 text-gray-600'>
+                        <div style={{textDecoration: 'line-through'}} className='text-md my-1 text-gray-600'>
                             Sales analysis by Chart
                         </div>
-                        <div className='text-md my-1 text-gray-600'>
+                        <div style={{textDecoration: 'line-through'}} className='text-md my-1 text-gray-600'>
                             24/7 Support
                         </div>
-                        <div className='text-md my-1 text-gray-600'>
+                        <div style={{textDecoration: 'line-through'}} className='text-md my-1 text-gray-600'>
                             Export data to Excel
                         </div>
-                        <div className='text-md my-1 text-gray-600'>
+                        <div style={{textDecoration: 'line-through'}} className='text-md my-1 text-gray-600'>
                             AI profit predictor
                         </div>
                         <div className='mt-8'>
@@ -136,10 +136,10 @@ const Pricing = () => {
                         <div className='text-md my-1 font-bold text-green-600'>
                             24/7 Support
                         </div>
-                        <div className='text-md my-1 text-gray-600'>
+                        <div style={{textDecoration: 'line-through'}} className='text-md my-1 text-gray-600'>
                             Export data to Excel
                         </div>
-                        <div className='text-md my-1 text-gray-600'>
+                        <div style={{textDecoration: 'line-through'}} className='text-md my-1 text-gray-600'>
                             AI profit predictor
                         </div>
                         <div className='mt-8'>
