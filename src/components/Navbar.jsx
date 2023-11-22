@@ -67,22 +67,22 @@ const Navbar = () => {
       }}
     >
       <div className='w-full xl:w-[1280px]'>
-        <div className='w-full md:flex items-center justify-between py-4 md:px-10 px-7'>
+        <div className='w-full md:flex items-center justify-between py-4 md:px-10 px-4'>
 
           <div onClick={()=>openNavbar()} className='font-bold text-3xl cursor-pointer flex items-center gap-2 z-50'>
             <Link to="/" className={`flex justify-center items-center`}>
-                <div className='px-2'>
+                <div className='px-0'>
                     <PiGlobeHemisphereEastLight 
                         className='h-[60px] w-[60px] text-gray-800 xl:text-white hover:text-gray-800 duration-500'
                     />
                 </div>
-                <div className='pl-4 font-black text-gray-100 hover:bg-gray-200 md:hover:bg-gray-100 rounded-full py-2 px-4 md:px-4 mb-2 md:mb-0 text-gray-800 hover:text-[#5ED1EA] duration-500'>
+                <div className='pl-4 font-black text-gray-100 hover:bg-gray-200 md:hover:bg-gray-100 rounded-full py-2 px-4 md:px-4 mb-2 mb-0 text-gray-800 hover:text-[#5ED1EA] duration-500'>
                     HOME
                 </div>
             </Link>
           </div>
 
-          <div onClick={()=>openNavbar()} className='absolute right-8 top-5 cursor-pointer xl:hidden w-7 h-7'>
+          <div onClick={()=>openNavbar()} className='absolute right-6 top-8 cursor-pointer xl:hidden w-7 h-7'>
             {
               open ? <XMarkIcon/> : <Bars3BottomRightIcon />
             }
@@ -100,7 +100,7 @@ const Navbar = () => {
               transition: '0s ease-in'
             }}
           >
-            <div className='mt-6 xl:items-center xl:text-center xl:gap-4 flex flex-col xl:flex-row xl:ml-8 xl:my-0 font-semibold'>
+            <div className='mt-6 mb-6 xl:items-center xl:text-center xl:gap-4 flex flex-col xl:flex-row xl:ml-8 xl:my-0 font-semibold'>
                 <a href="#aboutus" className='text-2xl lg:text-3xl hover:bg-gray-200 md:hover:bg-gray-100 rounded-full py-2 px-4 md:px-4 mb-2 md:mb-0 text-gray-800 hover:text-[#5ED1EA] duration-500 font-black'>
                   ABOUT
                 </a>
@@ -121,7 +121,7 @@ const Navbar = () => {
                       </Link>
                 }
             </div>
-            <hr/>
+            <hr className='mb-2'/>
           </div>
           
         </div>

@@ -59,11 +59,11 @@ const Pricing = () => {
                                 className='w-[250px] h-[150px]'
                             />
                         </div>
-                        <div className='text-xl font-bold mb-4'>
+                        <div className='text-3xl font-extrabold mb-4 text-[#6C63FF]'>
                             Basic Plan
                         </div>
                         <div className='flex justify-center items-end'>
-                            <div className='text-2xl md:text-3xl font-bold'>
+                            <div className='text-2xl md:text-3xl font-extrabold text-dark'>
                                 Rp 299.000
                             </div>
                             <div className='text-md font-bold pl-2'>
@@ -82,16 +82,16 @@ const Pricing = () => {
                         <div className='text-md my-1 font-bold text-green-600'>
                             Record profits
                         </div>
-                        <div className='text-md my-1 font-bold text-gray-600'>
+                        <div className='text-md my-1 text-gray-600'>
                             Sales analysis by Chart
                         </div>
-                        <div className='text-md my-1 font-bold text-gray-600'>
+                        <div className='text-md my-1 text-gray-600'>
                             24/7 Support
                         </div>
-                        <div className='text-md my-1 font-bold text-gray-600'>
+                        <div className='text-md my-1 text-gray-600'>
                             Export data to Excel
                         </div>
-                        <div className='text-md my-1 font-bold text-gray-600'>
+                        <div className='text-md my-1 text-gray-600'>
                             AI profit predictor
                         </div>
                         <div className='mt-8'>
@@ -107,11 +107,11 @@ const Pricing = () => {
                                 className='w-[250px] h-[150px]'
                             />
                         </div>
-                        <div className='text-xl font-bold mb-4'>
+                        <div className='text-3xl font-extrabold mb-4 text-[#6C63FF]'>
                             Business Plan
                         </div>
                         <div className='flex justify-center items-end'>
-                            <div className='text-2xl md:text-3xl font-bold'>
+                            <div className='text-2xl md:text-3xl font-extrabold text-dark'>
                                 Rp 499.000
                             </div>
                             <div className='text-md font-bold pl-2'>
@@ -136,10 +136,10 @@ const Pricing = () => {
                         <div className='text-md my-1 font-bold text-green-600'>
                             24/7 Support
                         </div>
-                        <div className='text-md my-1 font-bold text-gray-600'>
+                        <div className='text-md my-1 text-gray-600'>
                             Export data to Excel
                         </div>
-                        <div className='text-md my-1 font-bold text-gray-600'>
+                        <div className='text-md my-1 text-gray-600'>
                             AI profit predictor
                         </div>
                         <div className='mt-8'>
@@ -155,11 +155,11 @@ const Pricing = () => {
                                 className='w-[250px] h-[150px]'
                             />
                         </div>
-                        <div className='text-xl font-bold mb-4'>
+                        <div className='text-3xl font-extrabold mb-4 text-[#6C63FF]'>
                             Enterprise Plan
                         </div>
                         <div className='flex justify-center items-end'>
-                            <div className='text-2xl md:text-3xl font-bold'>
+                            <div className='text-2xl md:text-3xl font-extrabold text-dark'>
                                 Rp 999.000
                             </div>
                             <div className='text-md font-bold pl-2'>

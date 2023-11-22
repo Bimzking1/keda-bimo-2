@@ -35,7 +35,7 @@ const Home = () => {
                     </div>
                     <img
                         src={Illustration}
-                        className='w-[500px] lg:pl-16'
+                        className='w-[500px] lg:pl-16 hidden md:flex'
                     />
                 </div>
                 <div
