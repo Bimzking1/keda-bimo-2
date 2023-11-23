@@ -76,7 +76,7 @@ const Navbar = () => {
                         className='h-[60px] w-[60px] text-gray-800 xl:text-white hover:text-gray-800 duration-500'
                     />
                 </div>
-                <div className='pl-4 font-black text-gray-100 hover:bg-gray-200 md:hover:bg-gray-100 rounded-full py-2 px-4 md:px-4 mb-2 mb-0 text-gray-800 hover:text-[#5ED1EA] duration-500'>
+                <div className='pl-4 font-black text-gray-100 hover:bg-gray-200 md:hover:bg-gray-100 rounded-full py-2 px-4 md:px-4 mb-0 text-gray-800 hover:text-[#5ED1EA] duration-500'>
                     HOME
                 </div>
             </Link>
